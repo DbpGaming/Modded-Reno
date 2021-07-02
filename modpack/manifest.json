@@ -13,6 +13,7 @@
   "overrides": "overrides",
   "manifestVersion": 1,
   "version": "0.4.1",
+  "version": "0.4.5",
   "author": "DbpGaming",
   "name": "Modded Reno",
   "files": [
@@ -513,7 +514,6 @@
     },
     {
       "projectID": 459857,
-      "fileID": 3360116,
       "fileID": 3373736,
       "required": true
     },
