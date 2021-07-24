@@ -2,4 +2,3 @@ autoJump:false
 enableVsync:false
 renderDistance:8
 maxFps:260
-resourcePacks:["vanilla","Fabric Mods","file/Blast to the Past.zip"]
