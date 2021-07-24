@@ -1041,6 +1041,19 @@
       }
     },
     {
+      "projectID": 447673,
+      "fileID": 3392192,
+      "required": true,
+      "__meta": {
+        "name": "Sodium Extra",
+        "explicit": true,
+        "dependencies": [
+          394468,
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 448233,
       "fileID": 3358818,
       "required": true,
