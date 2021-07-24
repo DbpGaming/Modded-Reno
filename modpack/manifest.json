@@ -1078,15 +1078,6 @@
       }
     },
     {
-      "projectID": 455508,
-      "fileID": 3370019,
-      "required": true,
-      "__meta": {
-        "name": "Iris Shaders",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
     {
       "projectID": 456151,
       "fileID": 3362184,
@@ -1145,16 +1136,6 @@
       }
     },
     {
-      "projectID": 473553,
-      "fileID": 3389862,
-      "required": true,
-      "__meta": {
-        "name": "Dark Enchanting",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
       "projectID": 480684,
       "fileID": 3388251,
       "required": true,
@@ -1203,18 +1184,6 @@
       }
     },
     {
-      "projectID": 482834,
-      "fileID": 3353277,
-      "required": true,
-      "__meta": {
-        "name": "Farmer's Delight [Fabric]",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
       "projectID": 485213,
       "fileID": 3325967,
       "required": true,
@@ -1230,16 +1199,6 @@
       "required": true,
       "__meta": {
         "name": "Egg Of Capitalism",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 490459,
-      "fileID": 3362228,
-      "required": true,
-      "__meta": {
-        "name": "Trident Return Fabric",
         "explicit": true,
         "dependencies": []
       }
