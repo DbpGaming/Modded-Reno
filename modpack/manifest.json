@@ -1,1267 +1,1211 @@
 {
-  "minecraft": {
-    "version": "1.17.1",
-    "modLoaders": [
-      {
-        "id": "fabric",
-        "primary": true
-      }
-    ]
-  },
-  "manifestType": "minecraftModpack",
-  "overrides": "overrides",
-  "manifestVersion": 1,
-  "version": "0.6",
-  "author": "DbpGaming",
-  "name": "Modded Reno",
-  "files": [
-    {
-      "projectID": 225179,
-      "fileID": 3345206,
-      "required": true,
-      "__meta": {
-        "name": "VoxelMap",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 233564,
-      "fileID": 3398071,
-      "required": true,
-      "__meta": {
-        "name": "Tech Reborn",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 242064,
-      "fileID": 3379264,
-      "required": true,
-      "__meta": {
-        "name": "Item Scroller",
-        "explicit": true,
-        "dependencies": [
-          303119
-        ]
-      }
-    },
-    {
-      "projectID": 248787,
-      "fileID": 3403680,
-      "required": true,
-      "__meta": {
-        "name": "AppleSkin",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 284876,
-      "fileID": 3401524,
-      "required": true,
-      "__meta": {
-        "name": "DimensionalDoors",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 297344,
-      "fileID": 3383609,
-      "required": true,
-      "__meta": {
-        "name": "Tweakeroo",
-        "explicit": true,
-        "dependencies": [
-          303119
-        ]
-      }
-    },
-    {
-      "projectID": 303119,
-      "fileID": 3387061,
-      "required": true,
-      "__meta": {
-        "name": "MaLiLib",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 306612,
-      "fileID": 3398557,
-      "required": true,
-      "__meta": {
-        "name": "Fabric API",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 308702,
-      "fileID": 3400185,
-      "required": true,
-      "__meta": {
-        "name": "Mod Menu",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 308769,
-      "fileID": 3394286,
-      "required": true,
-      "__meta": {
-        "name": "Fabric Language Kotlin",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 308841,
-      "fileID": 3331405,
-      "required": true,
-      "__meta": {
-        "name": "Controlling for Fabric",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 308892,
-      "fileID": 3387062,
-      "required": true,
-      "__meta": {
-        "name": "Litematica",
-        "explicit": true,
-        "dependencies": [
-          303119
-        ]
-      }
-    },
-    {
-      "projectID": 310111,
-      "fileID": 3381485,
-      "required": true,
-      "__meta": {
-        "name": "Roughly Enough Items Fabric (REI)",
-        "explicit": true,
-        "dependencies": [
-          319057,
-          419697,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 311377,
-      "fileID": 3379682,
-      "required": true,
-      "__meta": {
-        "name": "BetterNether",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 312289,
-      "fileID": 3394246,
-      "required": true,
-      "__meta": {
-        "name": "Blockus",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 317121,
-      "fileID": 3336395,
-      "required": true,
-      "__meta": {
-        "name": "Cloth API (Fabric)",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 317856,
-      "fileID": 3399458,
-      "required": true,
-      "__meta": {
-        "name": "[Fabric] Expanded Storage",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 319057,
-      "fileID": 3329246,
-      "required": true,
-      "__meta": {
-        "name": "Cloth Config API (Fabric)",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 320215,
-      "fileID": 3401804,
-      "required": true,
-      "__meta": {
-        "name": "Adorn",
-        "explicit": true,
-        "dependencies": [
-          306612,
-          308769
-        ]
-      }
-    },
-    {
-      "projectID": 325492,
-      "fileID": 3352825,
-      "required": true,
-      "__meta": {
-        "name": "Light Overlay (Rift/Forge/Fabric)",
-        "explicit": true,
-        "dependencies": [
-          319057,
-          419697,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 332523,
-      "fileID": 3399879,
-      "required": true,
-      "__meta": {
-        "name": "Clear Skies",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 332548,
-      "fileID": 3329364,
-      "required": true,
-      "__meta": {
-        "name": "Right Click Clear",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 334873,
-      "fileID": 3390015,
-      "required": true,
-      "__meta": {
-        "name": "[Fabric] Fat Experience Orbs",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 341284,
-      "fileID": 3390660,
-      "required": true,
-      "__meta": {
-        "name": "Trinkets (Fabric)",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 349239,
-      "fileID": 3388180,
-      "required": true,
-      "__meta": {
-        "name": "Carpet",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 349240,
-      "fileID": 3380959,
-      "required": true,
-      "__meta": {
-        "name": "Carpet Extra",
-        "explicit": true,
-        "dependencies": [
-          349239
-        ]
-      }
-    },
-    {
-      "projectID": 350250,
-      "fileID": 3348538,
-      "required": true,
-      "__meta": {
-        "name": "Better Dropped Items",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 353890,
-      "fileID": 3399382,
-      "required": true,
-      "__meta": {
-        "name": "Not Enough Crashes (Fabric)",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 354231,
-      "fileID": 3362125,
-      "required": true,
-      "__meta": {
-        "name": "LambdaControls",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 355583,
-      "fileID": 3329360,
-      "required": true,
-      "__meta": {
-        "name": "Advancements Enlarger",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 360438,
-      "fileID": 3380166,
-      "required": true,
-      "__meta": {
-        "name": "Lithium (Fabric)",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 363707,
-      "fileID": 3349232,
-      "required": true,
-      "__meta": {
-        "name": "Lakeside",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 364540,
-      "fileID": 3348874,
-      "required": true,
-      "__meta": {
-        "name": "Fast Furnace for Fabric",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 369254,
-      "fileID": 3352302,
-      "required": true,
-      "__meta": {
-        "name": "Inmis",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 373591,
-      "fileID": 3372276,
-      "required": true,
-      "__meta": {
-        "name": "YUNG's Better Mineshafts (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          421649,
-          319057,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 374274,
-      "fileID": 2934596,
-      "required": true,
-      "__meta": {
-        "name": "Your Options Shall Be Respected (YOSBR)",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 375969,
-      "fileID": 3354526,
-      "required": true,
-      "__meta": {
-        "name": "Wolves With Armor",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 378036,
-      "fileID": 3397259,
-      "required": true,
-      "__meta": {
-        "name": "Where Is It",
-        "explicit": true,
-        "dependencies": [
-          306612,
-          319057,
-          317121
-        ]
-      }
-    },
-    {
-      "projectID": 378266,
-      "fileID": 3367847,
-      "required": true,
-      "__meta": {
-        "name": "Mo' Structures (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 380393,
-      "fileID": 3381516,
-      "required": true,
-      "__meta": {
-        "name": "'Slight' Gui Modifications",
-        "explicit": true,
-        "dependencies": [
-          319057,
-          306612,
-          317121,
-          419697
-        ]
-      }
-    },
-    {
-      "projectID": 381349,
-      "fileID": 3398733,
-      "required": true,
-      "__meta": {
-        "name": "Winged",
-        "explicit": true,
-        "dependencies": [
-          308769,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 387197,
-      "fileID": 3345668,
-      "required": true,
-      "__meta": {
-        "name": "Golems Galore",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 388832,
-      "fileID": 3386714,
-      "required": true,
-      "__meta": {
-        "name": "Kibe Utilities",
-        "explicit": true,
-        "dependencies": [
-          306612,
-          308769
-        ]
-      }
-    },
-    {
-      "projectID": 389010,
-      "fileID": 3344693,
-      "required": true,
-      "__meta": {
-        "name": "Parry",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 390027,
-      "fileID": 3367368,
-      "required": true,
-      "__meta": {
-        "name": "Hwyla Addon Horse Info",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 390675,
-      "fileID": 3354080,
-      "required": true,
-      "__meta": {
-        "name": "Culinaire",
-        "explicit": true,
-        "dependencies": [
-          399309,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 391366,
-      "fileID": 3404301,
-      "required": true,
-      "__meta": {
-        "name": "Repurposed Structures (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          317121,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 391708,
-      "fileID": 3404494,
-      "required": true,
-      "__meta": {
-        "name": "Industrial Revolution",
-        "explicit": true,
-        "dependencies": [
-          308769,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 391737,
-      "fileID": 3349227,
-      "required": true,
-      "__meta": {
-        "name": "Woods and Mires",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 391911,
-      "fileID": 3359618,
-      "required": true,
-      "__meta": {
-        "name": "Villagers follow Emeralds [Fabric]",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 393442,
-      "fileID": 3348967,
-      "required": true,
-      "__meta": {
-        "name": "LambDynamicLights",
-        "explicit": true,
-        "dependencies": [
-          308702,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 395547,
-      "fileID": 3344127,
-      "required": true,
-      "__meta": {
-        "name": "Trinket of Undying (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          341284
-        ]
-      }
-    },
-    {
-      "projectID": 395570,
-      "fileID": 3344483,
-      "required": true,
-      "__meta": {
-        "name": "Trinket Shulker Boxes (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          341284
-        ]
-      }
-    },
-    {
-      "projectID": 395864,
-      "fileID": 3355296,
-      "required": true,
-      "__meta": {
-        "name": "KubeJS (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          416294,
-          306612,
-          419697
-        ]
-      }
-    },
-    {
-      "projectID": 397357,
-      "fileID": 3329525,
-      "required": true,
-      "__meta": {
-        "name": "Harmful Stonecutters",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 397510,
-      "fileID": 3385824,
-      "required": true,
-      "__meta": {
-        "name": "Carpet TIS Addition",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 397903,
-      "fileID": 3343240,
-      "required": true,
-      "__meta": {
-        "name": "Elytra Trinket (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          341284
-        ]
-      }
-    },
-    {
-      "projectID": 398614,
-      "fileID": 3398554,
-      "required": true,
-      "__meta": {
-        "name": "Deep Mob Learning: Refabricated",
-        "explicit": true,
-        "dependencies": [
-          308769,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 399309,
-      "fileID": 3403968,
-      "required": true,
-      "__meta": {
-        "name": "Dawn API",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 399679,
-      "fileID": 3345208,
-      "required": true,
-      "__meta": {
-        "name": "Lapis Reserve",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 399798,
-      "fileID": 3344195,
-      "required": true,
-      "__meta": {
-        "name": "Item Model Fix (Fabric)",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 400619,
-      "fileID": 3400831,
-      "required": true,
-      "__meta": {
-        "name": "Dank Storage Fabric",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 402739,
-      "fileID": 3398685,
-      "required": true,
-      "__meta": {
-        "name": "BackSlot",
-        "explicit": true,
-        "dependencies": [
-          306612,
-          319057
-        ]
-      }
-    },
-    {
-      "projectID": 403858,
-      "fileID": 3344104,
-      "required": true,
-      "__meta": {
-        "name": "BedrockIfy - Bedrock Features on Java!",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 403889,
-      "fileID": 3343479,
-      "required": true,
-      "__meta": {
-        "name": "Smoother Bedrock",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 403914,
-      "fileID": 3402209,
-      "required": true,
-      "__meta": {
-        "name": "Red Bits",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 405388,
-      "fileID": 3394315,
-      "required": true,
-      "__meta": {
-        "name": "Modern Industrialization",
-        "explicit": true,
-        "dependencies": [
-          306612,
-          310111
-        ]
-      }
-    },
-    {
-      "projectID": 410896,
-      "fileID": 3351181,
-      "required": true,
-      "__meta": {
-        "name": "SilkSpawners",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 410902,
-      "fileID": 3405669,
-      "required": true,
-      "__meta": {
-        "name": "Fabric Waystones",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 411705,
-      "fileID": 3347434,
-      "required": true,
-      "__meta": {
-        "name": "Damage Tilt",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 412499,
-      "fileID": 3365593,
-      "required": true,
-      "__meta": {
-        "name": "Continue Button",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 413523,
-      "fileID": 3353068,
-      "required": true,
-      "__meta": {
-        "name": "Fabric Seasons",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 416294,
-      "fileID": 3354603,
-      "required": true,
-      "__meta": {
-        "name": "Rhino",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 417510,
-      "fileID": 3377300,
-      "required": true,
-      "__meta": {
-        "name": "Falling Leaves (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          319057,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 419697,
-      "fileID": 3385669,
-      "required": true,
-      "__meta": {
-        "name": "Architectury API (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 420709,
-      "fileID": 3403201,
-      "required": true,
-      "__meta": {
-        "name": "Bits And Chisels",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 421649,
-      "fileID": 3388246,
-      "required": true,
-      "__meta": {
-        "name": "YUNG's API (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 422447,
-      "fileID": 3356027,
-      "required": true,
-      "__meta": {
-        "name": "conveniently placed armor slots",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 423140,
-      "fileID": 3353740,
-      "required": true,
-      "__meta": {
-        "name": "Datapack Portals",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 423659,
-      "fileID": 3353633,
-      "required": true,
-      "__meta": {
-        "name": "Vistas",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 428912,
-      "fileID": 3378767,
-      "required": true,
-      "__meta": {
-        "name": "Krypton",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 429291,
-      "fileID": 3147277,
-      "required": true,
-      "__meta": {
-        "name": "Here be no Dragons!",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 430610,
-      "fileID": 3351514,
-      "required": true,
-      "__meta": {
-        "name": "StitchedSnow",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 433447,
-      "fileID": 3348465,
-      "required": true,
-      "__meta": {
-        "name": "MixinTrace",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 433518,
-      "fileID": 3209972,
-      "required": true,
-      "__meta": {
-        "name": "LazyDFU",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 433760,
-      "fileID": 3346142,
-      "required": true,
-      "__meta": {
-        "name": "Not Enough Animations (Forge/Fabric)",
-        "explicit": true,
-        "dependencies": [
-          441024
-        ]
-      }
-    },
-    {
-      "projectID": 434182,
-      "fileID": 3381077,
-      "required": true,
-      "__meta": {
-        "name": "Damage Tint",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 437779,
-      "fileID": 3329382,
-      "required": true,
-      "__meta": {
-        "name": "Dimension Fix (Some Forge Patches Ported)",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 440979,
-      "fileID": 3401714,
-      "required": true,
-      "__meta": {
-        "name": "WTHIT",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 441024,
-      "fileID": 3346137,
-      "required": true,
-      "__meta": {
-        "name": "TRansliterationLib",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 445977,
-      "fileID": 3367727,
-      "required": true,
-      "__meta": {
-        "name": "Don't Burn My Stuff",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 447673,
-      "fileID": 3392192,
-      "required": true,
-      "__meta": {
-        "name": "Sodium Extra",
-        "explicit": true,
-        "dependencies": [
-          394468,
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 448233,
-      "fileID": 3388827,
-      "required": true,
-      "__meta": {
-        "name": "Entity Culling Fabric/Forge",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 450817,
-      "fileID": 3320223,
-      "required": true,
-      "__meta": {
-        "name": "Loading Timer",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 455508,
-      "fileID": 3404785,
-      "required": true,
-      "__meta": {
-        "name": "Iris Shaders",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 456151,
-      "fileID": 3403563,
-      "required": true,
-      "__meta": {
-        "name": "Things [Fabric]",
-        "explicit": true,
-        "dependencies": [
-          319057,
-          341284
-        ]
-      }
-    },
-    {
-      "projectID": 456457,
-      "fileID": 3384705,
-      "required": true,
-      "__meta": {
-        "name": "Axes Are Weapons (Fabric/Forge)",
-        "explicit": true,
-        "dependencies": [
-          319057
-        ]
-      }
-    },
-    {
-      "projectID": 459857,
-      "fileID": 3373736,
-      "required": true,
-      "__meta": {
-        "name": "FerriteCore (Fabric)",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 468991,
-      "fileID": 3350741,
-      "required": true,
-      "__meta": {
-        "name": "Pettable",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 469006,
-      "fileID": 3345007,
-      "required": true,
-      "__meta": {
-        "name": "Perfect Accuracy",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 480684,
-      "fileID": 3388251,
-      "required": true,
-      "__meta": {
-        "name": "YUNG's Better Strongholds (Fabric)",
-        "explicit": true,
-        "dependencies": [
-          306612,
-          421649,
-          319057
-        ]
-      }
-    },
-    {
-      "projectID": 480939,
-      "fileID": 3347861,
-      "required": true,
-      "__meta": {
-        "name": "LargeBar",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 481530,
-      "fileID": 3354902,
-      "required": true,
-      "__meta": {
-        "name": "Color Me Outlines",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 482160,
-      "fileID": 3348848,
-      "required": true,
-      "__meta": {
-        "name": "Boat Item View",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    },
-    {
-      "projectID": 485213,
-      "fileID": 3325967,
-      "required": true,
-      "__meta": {
-        "name": "Augmented Autojump",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 490007,
-      "fileID": 3348040,
-      "required": true,
-      "__meta": {
-        "name": "Egg Of Capitalism",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 491911,
-      "fileID": 3390227,
-      "required": true,
-      "__meta": {
-        "name": "Urns",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 494447,
-      "fileID": 3379809,
-      "required": true,
-      "__meta": {
-        "name": "Offhand Overhaul",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 496150,
-      "fileID": 3381740,
-      "required": true,
-      "__meta": {
-        "name": "DeathLog",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 496631,
-      "fileID": 3390646,
-      "required": true,
-      "__meta": {
-        "name": "Foodables (Fabric)",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 508556,
-      "fileID": 3405636,
-      "required": true,
-      "__meta": {
-        "name": "Additional Additions",
-        "explicit": true,
-        "dependencies": [
-          306612
-        ]
-      }
-    }
-  ]
+	"minecraft": {
+		"version": "1.17.1",
+		"modLoaders": [
+			{
+				"id": "fabric",
+				"yarn": "0.11.6",
+				"primary": true
+			}
+		]
+	},
+	"manifestType": "minecraftModpack",
+	"overrides": "overrides",
+	"manifestVersion": 1,
+	"version": "0.6",
+	"author": "DbpGaming",
+	"name": "Modded Reno",
+	"files": [
+		{
+			"projectID": 225179,
+			"fileID": 3345206,
+			"required": true,
+			"__meta": {
+				"name": "VoxelMap",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 242064,
+			"fileID": 3379264,
+			"required": true,
+			"__meta": {
+				"name": "Item Scroller",
+				"explicit": true,
+				"dependencies": [
+					303119
+				]
+			}
+		},
+		{
+			"projectID": 248787,
+			"fileID": 3403680,
+			"required": true,
+			"__meta": {
+				"name": "AppleSkin",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 284876,
+			"fileID": 3401524,
+			"required": true,
+			"__meta": {
+				"name": "DimensionalDoors",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 297344,
+			"fileID": 3383609,
+			"required": true,
+			"__meta": {
+				"name": "Tweakeroo",
+				"explicit": true,
+				"dependencies": [
+					303119
+				]
+			}
+		},
+		{
+			"projectID": 303119,
+			"fileID": 3387061,
+			"required": true,
+			"__meta": {
+				"name": "MaLiLib",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 306612,
+			"fileID": 3398557,
+			"required": true,
+			"__meta": {
+				"name": "Fabric API",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 308702,
+			"fileID": 3400185,
+			"required": true,
+			"__meta": {
+				"name": "Mod Menu",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 308769,
+			"fileID": 3394286,
+			"required": true,
+			"__meta": {
+				"name": "Fabric Language Kotlin",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 308841,
+			"fileID": 3331405,
+			"required": true,
+			"__meta": {
+				"name": "Controlling for Fabric",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 308892,
+			"fileID": 3387062,
+			"required": true,
+			"__meta": {
+				"name": "Litematica",
+				"explicit": true,
+				"dependencies": [
+					303119
+				]
+			}
+		},
+		{
+			"projectID": 310111,
+			"fileID": 3381485,
+			"required": true,
+			"__meta": {
+				"name": "Roughly Enough Items Fabric (REI)",
+				"explicit": true,
+				"dependencies": [
+					319057,
+					419697,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 311377,
+			"fileID": 3379682,
+			"required": true,
+			"__meta": {
+				"name": "BetterNether",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 312289,
+			"fileID": 3394246,
+			"required": true,
+			"__meta": {
+				"name": "Blockus",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 317121,
+			"fileID": 3336395,
+			"required": true,
+			"__meta": {
+				"name": "Cloth API (Fabric)",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 317856,
+			"fileID": 3399458,
+			"required": true,
+			"__meta": {
+				"name": "[Fabric] Expanded Storage",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 319057,
+			"fileID": 3329246,
+			"required": true,
+			"__meta": {
+				"name": "Cloth Config API (Fabric)",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 325492,
+			"fileID": 3352825,
+			"required": true,
+			"__meta": {
+				"name": "Light Overlay (Rift/Forge/Fabric)",
+				"explicit": true,
+				"dependencies": [
+					319057,
+					419697,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 332523,
+			"fileID": 3399879,
+			"required": true,
+			"__meta": {
+				"name": "Clear Skies",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 332548,
+			"fileID": 3329364,
+			"required": true,
+			"__meta": {
+				"name": "Right Click Clear",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 334873,
+			"fileID": 3390015,
+			"required": true,
+			"__meta": {
+				"name": "[Fabric] Fat Experience Orbs",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 341284,
+			"fileID": 3390660,
+			"required": true,
+			"__meta": {
+				"name": "Trinkets (Fabric)",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 349239,
+			"fileID": 3388180,
+			"required": true,
+			"__meta": {
+				"name": "Carpet",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 349240,
+			"fileID": 3380959,
+			"required": true,
+			"__meta": {
+				"name": "Carpet Extra",
+				"explicit": true,
+				"dependencies": [
+					349239
+				]
+			}
+		},
+		{
+			"projectID": 350250,
+			"fileID": 3348538,
+			"required": true,
+			"__meta": {
+				"name": "Better Dropped Items",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 353890,
+			"fileID": 3399382,
+			"required": true,
+			"__meta": {
+				"name": "Not Enough Crashes (Fabric)",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 354231,
+			"fileID": 3362125,
+			"required": true,
+			"__meta": {
+				"name": "LambdaControls",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 355583,
+			"fileID": 3329360,
+			"required": true,
+			"__meta": {
+				"name": "Advancements Enlarger",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 360438,
+			"fileID": 3380166,
+			"required": true,
+			"__meta": {
+				"name": "Lithium (Fabric)",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 363707,
+			"fileID": 3349232,
+			"required": true,
+			"__meta": {
+				"name": "Lakeside",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 364540,
+			"fileID": 3348874,
+			"required": true,
+			"__meta": {
+				"name": "Fast Furnace for Fabric",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 369254,
+			"fileID": 3352302,
+			"required": true,
+			"__meta": {
+				"name": "Inmis",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 373591,
+			"fileID": 3372276,
+			"required": true,
+			"__meta": {
+				"name": "YUNG's Better Mineshafts (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					421649,
+					319057,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 374274,
+			"fileID": 2934596,
+			"required": true,
+			"__meta": {
+				"name": "Your Options Shall Be Respected (YOSBR)",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 375969,
+			"fileID": 3354526,
+			"required": true,
+			"__meta": {
+				"name": "Wolves With Armor",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 378036,
+			"fileID": 3397259,
+			"required": true,
+			"__meta": {
+				"name": "Where Is It",
+				"explicit": true,
+				"dependencies": [
+					306612,
+					319057,
+					317121
+				]
+			}
+		},
+		{
+			"projectID": 378266,
+			"fileID": 3367847,
+			"required": true,
+			"__meta": {
+				"name": "Mo' Structures (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 380393,
+			"fileID": 3381516,
+			"required": true,
+			"__meta": {
+				"name": "'Slight' Gui Modifications",
+				"explicit": true,
+				"dependencies": [
+					319057,
+					306612,
+					317121,
+					419697
+				]
+			}
+		},
+		{
+			"projectID": 381349,
+			"fileID": 3398733,
+			"required": true,
+			"__meta": {
+				"name": "Winged",
+				"explicit": true,
+				"dependencies": [
+					308769,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 387197,
+			"fileID": 3345668,
+			"required": true,
+			"__meta": {
+				"name": "Golems Galore",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 388832,
+			"fileID": 3386714,
+			"required": true,
+			"__meta": {
+				"name": "Kibe Utilities",
+				"explicit": true,
+				"dependencies": [
+					306612,
+					308769
+				]
+			}
+		},
+		{
+			"projectID": 389010,
+			"fileID": 3344693,
+			"required": true,
+			"__meta": {
+				"name": "Parry",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 390027,
+			"fileID": 3367368,
+			"required": true,
+			"__meta": {
+				"name": "Hwyla Addon Horse Info",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 390675,
+			"fileID": 3354080,
+			"required": true,
+			"__meta": {
+				"name": "Culinaire",
+				"explicit": true,
+				"dependencies": [
+					399309,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 391366,
+			"fileID": 3404301,
+			"required": true,
+			"__meta": {
+				"name": "Repurposed Structures (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					317121,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 391708,
+			"fileID": 3404494,
+			"required": true,
+			"__meta": {
+				"name": "Industrial Revolution",
+				"explicit": true,
+				"dependencies": [
+					308769,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 391911,
+			"fileID": 3359618,
+			"required": true,
+			"__meta": {
+				"name": "Villagers follow Emeralds [Fabric]",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 393442,
+			"fileID": 3348967,
+			"required": true,
+			"__meta": {
+				"name": "LambDynamicLights",
+				"explicit": true,
+				"dependencies": [
+					308702,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 395547,
+			"fileID": 3344127,
+			"required": true,
+			"__meta": {
+				"name": "Trinket of Undying (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					341284
+				]
+			}
+		},
+		{
+			"projectID": 395570,
+			"fileID": 3344483,
+			"required": true,
+			"__meta": {
+				"name": "Trinket Shulker Boxes (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					341284
+				]
+			}
+		},
+		{
+			"projectID": 395864,
+			"fileID": 3355296,
+			"required": true,
+			"__meta": {
+				"name": "KubeJS (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					416294,
+					306612,
+					419697
+				]
+			}
+		},
+		{
+			"projectID": 397357,
+			"fileID": 3329525,
+			"required": true,
+			"__meta": {
+				"name": "Harmful Stonecutters",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 397510,
+			"fileID": 3385824,
+			"required": true,
+			"__meta": {
+				"name": "Carpet TIS Addition",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 397903,
+			"fileID": 3343240,
+			"required": true,
+			"__meta": {
+				"name": "Elytra Trinket (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					341284
+				]
+			}
+		},
+		{
+			"projectID": 398614,
+			"fileID": 3398554,
+			"required": true,
+			"__meta": {
+				"name": "Deep Mob Learning: Refabricated",
+				"explicit": true,
+				"dependencies": [
+					308769,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 399309,
+			"fileID": 3403968,
+			"required": true,
+			"__meta": {
+				"name": "Dawn API",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 399679,
+			"fileID": 3345208,
+			"required": true,
+			"__meta": {
+				"name": "Lapis Reserve",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 399798,
+			"fileID": 3344195,
+			"required": true,
+			"__meta": {
+				"name": "Item Model Fix (Fabric)",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 400619,
+			"fileID": 3400831,
+			"required": true,
+			"__meta": {
+				"name": "Dank Storage Fabric",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 402739,
+			"fileID": 3398685,
+			"required": true,
+			"__meta": {
+				"name": "BackSlot",
+				"explicit": true,
+				"dependencies": [
+					306612,
+					319057
+				]
+			}
+		},
+		{
+			"projectID": 403858,
+			"fileID": 3344104,
+			"required": true,
+			"__meta": {
+				"name": "BedrockIfy - Bedrock Features on Java!",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 403889,
+			"fileID": 3343479,
+			"required": true,
+			"__meta": {
+				"name": "Smoother Bedrock",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 403914,
+			"fileID": 3402209,
+			"required": true,
+			"__meta": {
+				"name": "Red Bits",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 405388,
+			"fileID": 3394315,
+			"required": true,
+			"__meta": {
+				"name": "Modern Industrialization",
+				"explicit": true,
+				"dependencies": [
+					306612,
+					310111
+				]
+			}
+		},
+		{
+			"projectID": 410896,
+			"fileID": 3351181,
+			"required": true,
+			"__meta": {
+				"name": "SilkSpawners",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 410902,
+			"fileID": 3405669,
+			"required": true,
+			"__meta": {
+				"name": "Fabric Waystones",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 411705,
+			"fileID": 3347434,
+			"required": true,
+			"__meta": {
+				"name": "Damage Tilt",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 412499,
+			"fileID": 3365593,
+			"required": true,
+			"__meta": {
+				"name": "Continue Button",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 413523,
+			"fileID": 3353068,
+			"required": true,
+			"__meta": {
+				"name": "Fabric Seasons",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 416294,
+			"fileID": 3354603,
+			"required": true,
+			"__meta": {
+				"name": "Rhino",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 417510,
+			"fileID": 3377300,
+			"required": true,
+			"__meta": {
+				"name": "Falling Leaves (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					319057,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 419697,
+			"fileID": 3385669,
+			"required": true,
+			"__meta": {
+				"name": "Architectury API (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 421649,
+			"fileID": 3388246,
+			"required": true,
+			"__meta": {
+				"name": "YUNG's API (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 422447,
+			"fileID": 3356027,
+			"required": true,
+			"__meta": {
+				"name": "conveniently placed armor slots",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 423140,
+			"fileID": 3353740,
+			"required": true,
+			"__meta": {
+				"name": "Datapack Portals",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 423659,
+			"fileID": 3353633,
+			"required": true,
+			"__meta": {
+				"name": "Vistas",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 428912,
+			"fileID": 3378767,
+			"required": true,
+			"__meta": {
+				"name": "Krypton",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 429291,
+			"fileID": 3147277,
+			"required": true,
+			"__meta": {
+				"name": "Here be no Dragons!",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 430610,
+			"fileID": 3351514,
+			"required": true,
+			"__meta": {
+				"name": "StitchedSnow",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 433447,
+			"fileID": 3348465,
+			"required": true,
+			"__meta": {
+				"name": "MixinTrace",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 433518,
+			"fileID": 3209972,
+			"required": true,
+			"__meta": {
+				"name": "LazyDFU",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 433760,
+			"fileID": 3346142,
+			"required": true,
+			"__meta": {
+				"name": "Not Enough Animations (Forge/Fabric)",
+				"explicit": true,
+				"dependencies": [
+					441024
+				]
+			}
+		},
+		{
+			"projectID": 434182,
+			"fileID": 3381077,
+			"required": true,
+			"__meta": {
+				"name": "Damage Tint",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 437779,
+			"fileID": 3329382,
+			"required": true,
+			"__meta": {
+				"name": "Dimension Fix (Some Forge Patches Ported)",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 440979,
+			"fileID": 3401714,
+			"required": true,
+			"__meta": {
+				"name": "WTHIT",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 441024,
+			"fileID": 3346137,
+			"required": true,
+			"__meta": {
+				"name": "TRansliterationLib",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 445977,
+			"fileID": 3367727,
+			"required": true,
+			"__meta": {
+				"name": "Don't Burn My Stuff",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 447673,
+			"fileID": 3392192,
+			"required": true,
+			"__meta": {
+				"name": "Sodium Extra",
+				"explicit": true,
+				"dependencies": [
+					394468,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 448233,
+			"fileID": 3388827,
+			"required": true,
+			"__meta": {
+				"name": "Entity Culling Fabric/Forge",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 450817,
+			"fileID": 3320223,
+			"required": true,
+			"__meta": {
+				"name": "Loading Timer",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 455508,
+			"fileID": 3404785,
+			"required": true,
+			"__meta": {
+				"name": "Iris Shaders",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 456151,
+			"fileID": 3403563,
+			"required": true,
+			"__meta": {
+				"name": "Things [Fabric]",
+				"explicit": true,
+				"dependencies": [
+					319057,
+					341284
+				]
+			}
+		},
+		{
+			"projectID": 456457,
+			"fileID": 3384705,
+			"required": true,
+			"__meta": {
+				"name": "Axes Are Weapons (Fabric/Forge)",
+				"explicit": true,
+				"dependencies": [
+					319057
+				]
+			}
+		},
+		{
+			"projectID": 459857,
+			"fileID": 3373736,
+			"required": true,
+			"__meta": {
+				"name": "FerriteCore (Fabric)",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 468991,
+			"fileID": 3350741,
+			"required": true,
+			"__meta": {
+				"name": "Pettable",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 480684,
+			"fileID": 3388251,
+			"required": true,
+			"__meta": {
+				"name": "YUNG's Better Strongholds (Fabric)",
+				"explicit": true,
+				"dependencies": [
+					306612,
+					421649,
+					319057
+				]
+			}
+		},
+		{
+			"projectID": 480939,
+			"fileID": 3347861,
+			"required": true,
+			"__meta": {
+				"name": "LargeBar",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 481530,
+			"fileID": 3354902,
+			"required": true,
+			"__meta": {
+				"name": "Color Me Outlines",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 482160,
+			"fileID": 3348848,
+			"required": true,
+			"__meta": {
+				"name": "Boat Item View",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 485213,
+			"fileID": 3325967,
+			"required": true,
+			"__meta": {
+				"name": "Augmented Autojump",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 490007,
+			"fileID": 3348040,
+			"required": true,
+			"__meta": {
+				"name": "Egg Of Capitalism",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 491911,
+			"fileID": 3390227,
+			"required": true,
+			"__meta": {
+				"name": "Urns",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 494447,
+			"fileID": 3379809,
+			"required": true,
+			"__meta": {
+				"name": "Offhand Overhaul",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 496150,
+			"fileID": 3381740,
+			"required": true,
+			"__meta": {
+				"name": "DeathLog",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 496631,
+			"fileID": 3390646,
+			"required": true,
+			"__meta": {
+				"name": "Foodables (Fabric)",
+				"explicit": true,
+				"dependencies": []
+			}
+		},
+		{
+			"projectID": 508556,
+			"fileID": 3405636,
+			"required": true,
+			"__meta": {
+				"name": "Additional Additions",
+				"explicit": true,
+				"dependencies": [
+					306612
+				]
+			}
+		}
+	]
 }
