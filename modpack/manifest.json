@@ -40,7 +40,7 @@
 		},
 		{
 			"projectID": 248787,
-			"fileID": 3403680,
+			"fileID": 3412456,
 			"required": true,
 			"__meta": {
 				"name": "AppleSkin",
@@ -184,7 +184,7 @@
 		},
 		{
 			"projectID": 317856,
-			"fileID": 3399458,
+			"fileID": 3409583,
 			"required": true,
 			"__meta": {
 				"name": "[Fabric] Expanded Storage",
@@ -196,7 +196,7 @@
 		},
 		{
 			"projectID": 319057,
-			"fileID": 3329246,
+			"fileID": 3413206,
 			"required": true,
 			"__meta": {
 				"name": "Cloth Config API (Fabric)",
@@ -370,7 +370,7 @@
 		},
 		{
 			"projectID": 373591,
-			"fileID": 3372276,
+			"fileID": 3414789,
 			"required": true,
 			"__meta": {
 				"name": "YUNG's Better Mineshafts (Fabric)",
@@ -418,7 +418,7 @@
 		},
 		{
 			"projectID": 378266,
-			"fileID": 3367847,
+			"fileID": 3409084,
 			"required": true,
 			"__meta": {
 				"name": "Mo' Structures (Fabric)",
@@ -514,7 +514,7 @@
 		},
 		{
 			"projectID": 391366,
-			"fileID": 3404301,
+			"fileID": 3414607,
 			"required": true,
 			"__meta": {
 				"name": "Repurposed Structures (Fabric)",
@@ -550,7 +550,7 @@
 		},
 		{
 			"projectID": 393442,
-			"fileID": 3348967,
+			"fileID": 3409038,
 			"required": true,
 			"__meta": {
 				"name": "LambDynamicLights",
@@ -611,7 +611,7 @@
 		},
 		{
 			"projectID": 397510,
-			"fileID": 3385824,
+			"fileID": 3414047,
 			"required": true,
 			"__meta": {
 				"name": "Carpet TIS Addition",
@@ -733,7 +733,7 @@
 		},
 		{
 			"projectID": 405388,
-			"fileID": 3394315,
+			"fileID": 3415268,
 			"required": true,
 			"__meta": {
 				"name": "Modern Industrialization",
@@ -825,7 +825,7 @@
 		},
 		{
 			"projectID": 419697,
-			"fileID": 3385669,
+			"fileID": 3415032,
 			"required": true,
 			"__meta": {
 				"name": "Architectury API (Fabric)",
@@ -837,7 +837,7 @@
 		},
 		{
 			"projectID": 421649,
-			"fileID": 3388246,
+			"fileID": 3412636,
 			"required": true,
 			"__meta": {
 				"name": "YUNG's API (Fabric)",
@@ -871,7 +871,7 @@
 		},
 		{
 			"projectID": 423659,
-			"fileID": 3353633,
+			"fileID": 3413100,
 			"required": true,
 			"__meta": {
 				"name": "Vistas",
@@ -1089,7 +1089,7 @@
 		},
 		{
 			"projectID": 480684,
-			"fileID": 3388251,
+			"fileID": 3412649,
 			"required": true,
 			"__meta": {
 				"name": "YUNG's Better Strongholds (Fabric)",
@@ -1197,7 +1197,7 @@
 		},
 		{
 			"projectID": 508556,
-			"fileID": 3405636,
+			"fileID": 3413948,
 			"required": true,
 			"__meta": {
 				"name": "Additional Additions",
