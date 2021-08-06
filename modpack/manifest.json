@@ -251,6 +251,20 @@
 			}
 		},
 		{
+			"projectID": 335874,
+			"fileID": 3392010,
+			"required": true,
+			"__meta": {
+				"name": "Better Withered Mobs",
+				"explicit": true,
+				"dependencies": [
+					319057,
+					306612,
+					308769
+				]
+			}
+		},
+		{
 			"projectID": 341284,
 			"fileID": 3390660,
 			"required": true,
@@ -1102,6 +1116,20 @@
 			}
 		},
 		{
+			"projectID": 480724,
+			"fileID": 3344051,
+			"required": true,
+			"__meta": {
+				"name": "Day Dream",
+				"explicit": true,
+				"dependencies": [
+					319057,
+					306612,
+					308769
+				]
+			}
+		},
+		{
 			"projectID": 480939,
 			"fileID": 3347861,
 			"required": true,
@@ -1136,6 +1164,20 @@
 			}
 		},
 		{
+			"projectID": 483955,
+			"fileID": 3343954,
+			"required": true,
+			"__meta": {
+				"name": "No Teleport Cooldown",
+				"explicit": true,
+				"dependencies": [
+					319057,
+					306612,
+					308769
+				]
+			}
+		},
+		{
 			"projectID": 485213,
 			"fileID": 3325967,
 			"required": true,
@@ -1143,6 +1185,48 @@
 				"name": "Augmented Autojump",
 				"explicit": true,
 				"dependencies": []
+			}
+		},
+		{
+			"projectID": 486137,
+			"fileID": 3360831,
+			"required": true,
+			"__meta": {
+				"name": "Expanded Axe Enchanting",
+				"explicit": true,
+				"dependencies": [
+					319057,
+					306612,
+					308769
+				]
+			}
+		},
+		{
+			"projectID": 486981,
+			"fileID": 3399174,
+			"required": true,
+			"__meta": {
+				"name": "Neutral Animals",
+				"explicit": true,
+				"dependencies": [
+					319057,
+					308769,
+					306612
+				]
+			}
+		},
+		{
+			"projectID": 487100,
+			"fileID": 3360833,
+			"required": true,
+			"__meta": {
+				"name": "Expanded Trident Enchanting",
+				"explicit": true,
+				"dependencies": [
+					308769,
+					306612,
+					319057
+				]
 			}
 		},
 		{
